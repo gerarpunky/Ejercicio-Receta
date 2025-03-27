@@ -1,0 +1,115 @@
+body {
+    background-color: RGB(243, 239, 232);
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor-flex {
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    background-color: #E4D6B5;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+i {
+    color: #7A5C3A;
+    scale: 380%;
+}
+
+.i {
+    align-items: flex-end;
+}
+
+.title {
+    font-size: 30px;
+
+}
+
+.logo img {
+    width: auto;
+    height: 100px;
+}
+
+.h6 {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    font-weight:300;
+}
+
+.h6 li{
+    display: inline;
+}
+
+.h6 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+h1 {
+    font-size: 70px;
+    color: #5A3E21;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 50px;
+    color: #7A5C3A;
+    margin: 10px 0;
+}
+.txt-1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.ingredientes {
+    background-color: #7A5C3A;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    width: 40%;
+    margin-bottom: 20px;
+    margin: 20px 0;
+}
+
+.instrucciones {
+    background-color: #BC9157;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.mantecada {
+    width: 400px;
+    display: block;
+    margin: auto;
+    align-items: center;
+}
+
+.footer {
+    background-color: #E4D6B5;
+    border-radius: 7px;
+    display: flex-end
+;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.footer img {
+    align-items: flex-end;
+    width: auto;
+    height: 40px;
+}
